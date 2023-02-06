@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.body{
+    background-image: url("../imagens/bg-main-desktop.png");
+    width: 1440px;
+    background-repeat: no-repeat;
+    padding-top: 8%;
+    padding-left: 15%;
+    font-family: 'Space Grotesk';
+    font-size: 10px;
+    line-height: 50px;
+
+}
+
+.principal{
+    width: 900px;
+    height:450px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 30px;
+    border-color: aqua;
+    border-style: dotted;
+    row-gap: 20px;
+
+}
+
+.cardf{
+    text-align: left;
+
+}
+
+.cardv{
+    text-align: right;
+
+}
+
+.form{
+    margin-top: 20%;
+    margin-left: 10%;;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-column: 2/3;
+    font-family: 'Space Grotesk';
+
+}
+
+.nome{
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width:300px;
+    height: 35px;
+    font-family: 'Space Grotesk';
+
+}
+
+.numero{
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width:300px;
+    height: 35px;
+    font-family: 'Space Grotesk';
+}
+
+.mes{
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width:60px;
+    height: 35px;
+    font-family: 'Space Grotesk';
+}
+
+.ano{
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width:60px;
+    height: 35px;
+    font-family: 'Space Grotesk';
+}
+
+.cvc{
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width:140px;
+    height: 35px;
+    font-family: 'Space Grotesk';
+}
+
+.enviar{
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 5%;
+    width: 300px;
+    height: 35px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Grotesk';
+}
+
+.linha{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+}
+

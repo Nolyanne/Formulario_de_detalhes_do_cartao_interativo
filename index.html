@@ -1,0 +1,46 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cartão interativo</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="body">
+        <section class="principal">
+            <div class="cardf">
+                    <img src="imagens/bg-card-front.png" height="200px">
+            </div>
+            <div class="form">
+                <table>
+                    <tr>
+                        <td colspan="3">NOME DO TITULAR DO CARTÃO:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="linha"><input type="text" class="nome"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">NÚMERO DO CARTÃO:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="text" class="numero"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">DATA DE EXPIRAÇÃO: (MM/YY)</td>
+                        <td>CVC:</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="mes"></td>
+                        <td><input type="text" class="ano"></td>
+                        <td><input type="text" class="cvc"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="2"><input type="button" value="Enviar" onclick="validacao.html" class="enviar"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cardv">
+                <img src="imagens/bg-card-back.png" height="200px">
+            </div>
+        </section>
+    </body>
+
+</html>
