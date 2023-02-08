@@ -6,23 +6,50 @@
     </head>
     <body class="body">
         <section class="principal">
-            <div class="cardf">
-                    <img src="imagens/bg-card-front.png" height="200px">
-            </div>
+                <table class="frente">
+                    <tr>
+                        <td>
+                            <div class="resultCartao">
+                                <UL>
+                                    <li class="lista" id="bloco1">0000</li>
+                                    <li class="lista" id="bloco2">0000</li>
+                                    <li class="lista" id="bloco3">0000</li>
+                                    <li class="lista" id="bloco4">0000</li>
+                                </UL>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="resultNome">JANE APPLESEED</div>
+                        </td>
+                        <td>
+                            <div class="resultVenc">
+                                <ul>
+                                    <li class="lista2" id="mes">00 /</li>
+                                    <li class="lista2" id="ano"> 00</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
             <div class="form">
                 <table>
                     <tr>
                         <td colspan="3">NOME DO TITULAR DO CARTÃO:</td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="linha"><input type="text" class="nome"></td>
+                        <td colspan="3" class="linha"><input type="text" class="nome" ondrag="escreveNome()"></td>
                     </tr>
+                    <tr></tr>
                     <tr>
                         <td colspan="3">NÚMERO DO CARTÃO:</td>
                     </tr>
                     <tr>
                         <td colspan="3"><input type="text" class="numero"></td>
                     </tr>
+                    <tr></tr>
                     <tr>
                         <td colspan="2">DATA DE EXPIRAÇÃO: (MM/YY)</td>
                         <td>CVC:</td>
@@ -32,15 +59,22 @@
                         <td><input type="text" class="ano"></td>
                         <td><input type="text" class="cvc"></td>
                     </tr>
+                    <tr></tr>
                     <tr>
                         <td colspan="2" rowspan="2"><input type="button" value="Enviar" onclick="validacao.html" class="enviar"></td>
                     </tr>
+                    <tr></tr>
                 </table>
             </div>
-            <div class="cardv">
-                <img src="imagens/bg-card-back.png" height="200px">
-            </div>
+            <table class="cardv">
+                <tr>
+                    <td>
+                        <div class="resultCVC">000</div>
+                    </td>
+                </tr>
+            </table>
         </section>
+        <script src="js/main.js"></script>
     </body>
 
 </html>
