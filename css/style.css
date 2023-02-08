@@ -22,28 +22,65 @@
     border-color: aqua;
     border-style: dotted;
     row-gap: 20px;
+}
+
+.frente{
+    background-image: url("../imagens/bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: left;
+    border-color: aqua;
+    border-style: dotted;
+    height: 225px;
+    width: 400px;
+}
+
+.resultCartao{
+    color: hsl(0, 0%, 100%);
+    margin-left: 2%;
+    margin-top: 35%;
 
 }
 
-.cardf{
-    text-align: left;
+.lista{
+    list-style: none;
+    display: inline;
+    font-size: 23px;
+}
+
+
+
+.resultNome{
+    font-size: 10px;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.resultVenc{
+    margin-right: 10%;
+}
+
+.lista2{
+    list-style: none;
+    display: inline;
+    font-size: 10px;
 
 }
 
-.cardv{
-    text-align: right;
-
-}
 
 .form{
-    margin-top: 20%;
-    margin-left: 10%;;
+    margin-left: 55%;
     text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-column: 2/3;
     font-family: 'Space Grotesk';
+    border-color: aqua;
+    border-style: dotted;
 
+}
+
+.linha{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
 }
 
 .nome{
@@ -52,6 +89,7 @@
     width:300px;
     height: 35px;
     font-family: 'Space Grotesk';
+
 
 }
 
@@ -96,9 +134,27 @@
     font-family: 'Space Grotesk';
 }
 
-.linha{
-    border-collapse: separate;
-    border-spacing: 0 8px;
-    margin-top: -8px;
+
+
+.cardv{
+    text-align: right;
+    background-image: url("../imagens/bg-card-back.png");    
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right;
+    border-color: aqua;
+    border-style: dotted;
+    height: 225px;
+    width: 400px;
+
 }
+
+.resultCVC{
+    margin-right: 10%;
+}
+
+
+
+
+
 
